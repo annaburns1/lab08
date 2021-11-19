@@ -1,0 +1,37 @@
+p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: darkcyan;
+}
+
+input[type=number]
+{
+    padding: 5px;
+    border: 2px solid lightpink;
+}
+
+div.border
+{
+    background-color: lightskyblue;
+    padding: 10px;
+    margin: 10px 450px 15px 450px;
+}
+
+div.background
+{
+    background-color: lightyellow;
+    padding: 10px;
+    margin: 20px 450px 10px 450px;
+}
+
+button
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: darkcyan;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+

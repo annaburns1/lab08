@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Create-A-Page</title>
+        <script type="text/javascript" src="main.js"></script>
+        <link href="myStyle.css"
+        rel="stylesheet"
+        type="text/css"/>
+    </head>
+    <body id="here">
+        <p>Hey! Welcome to this awesome page that YOU get to customize.</p>
+        <p>First, choose the values for each element, then press the "Customize" button!</p>
+        <div class="border" align="center">
+            <p>BORDER:</p>
+            <div class="r">
+                <p>Red Value (0-255): <input type="number" id="redBO"></p>
+            </div>
+            <div class="g">
+                <p>Green Value (0-255): <input type="number" id="greenBO"></p>
+            </div>
+            <div class="b">
+                <p>Blue Value (0-255): <input type="number" id="blueBO"></p>
+            </div>
+            <div class="w">
+                <p>Border Width (px): <input type="number" id="widthBO"></p>
+            </div>
+        </div>
+        <div class="background" align="center">
+            <p>BACKGROUND:</p>
+            <div class="r">
+                <p>Red Value (0-255): <input type="number" id="red"></p>
+            </div>
+            <div class="g">
+                <p>Green Value (0-255): <input type="number" id="green"></p>
+            </div>
+            <div class="b">
+                <p>Blue Value (0-255): <input type="number" id="blue"></p>
+            </div>
+        </div>
+        <div align="center">
+            <button onclick="customize()">CUSTOMIZE</button>
+        </div>
+    </body>
+</html>

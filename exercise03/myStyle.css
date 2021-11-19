@@ -1,0 +1,74 @@
+p
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin: 20px 430px 20px 430px;
+}
+
+p.title
+{
+    background-color: crimson;
+    font-size: 40pt;
+}
+
+p.para
+{
+    background-color: royalblue;
+    padding: 10px;
+    font-size: 20px;
+}
+
+body 
+{
+    background-image: url(images/2-allen-fieldhouse-jean-hutchison.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+button
+{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+button:hover
+{
+    background-color: crimson;
+}
+
+iframe
+{
+    position: absolute;
+    left: 80px;
+    top: 380px;
+}
+
+div.pic1
+{
+    position: absolute;
+    left: 80;
+    top:40px;
+}
+
+div.pic2
+{
+    position: absolute;
+    left: 1050;
+    top:40px;
+}
+
+div.funfact
+{
+    background-color: darkblue;
+    font-size: 20px;
+    color: white;
+    margin: 100px 120px 100px 480px;
+    position: absolute;
+    left: 320;
+    top: 300;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
